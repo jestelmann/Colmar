@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -7,7 +7,7 @@ html {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -64,8 +64,9 @@ header .logo img {
     align-items: center;
 }
 
-.learn_caption {
-    margin-left: 24px;
+.learn img {
+    margin: 30px 22px;
+    width: 60%;
 }
 
 .start_button {
@@ -76,3 +77,93 @@ header .logo img {
     font-size: 2rem;
 }
 
+.information {
+    display: flex;
+    width:100%;
+}
+
+.information_intro {
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.information_intro img {
+    width: 100%
+}
+
+.information_content {
+    padding-top: 16px;
+    width:40%;
+}
+
+.information_content .orientation,.campus,.guest {
+    display: flex;
+    padding: 16px;
+}
+
+.information_content a {
+    color: blue;
+}
+
+.information_content img {
+    width: 35%;
+    height: auto;
+}
+
+.information_content .info {
+    width: 65%;
+    padding-left: 1rem;
+}
+
+.information_content .guest {
+    background-color: lightgray;
+}
+
+.start_learning {
+    width: 100%;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.start_learning h1 {
+    padding-top: 32px;
+}
+
+.start_learning .courses {
+    padding: 32px 56px;
+}
+
+.start_learning .course {
+    width: 30%;
+    margin: 16px;
+}
+
+.start_learning img {
+    width: 100%;
+    height: auto;
+}
+
+
+.start_learning .row {
+    display: flex;
+    align-content: stretch;
+}
+
+.start_learning .info {
+    background-color: white;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    height: 11rem;
+
+}
+
+.start_learning h3 {
+    margin: 1rem, 0;
+
+}
+
+.start_learning .label {
+    margin: 8px,0;
+}
