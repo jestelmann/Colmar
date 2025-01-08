@@ -6,23 +6,29 @@
     <!-- <link rel="stylesheet" href="resources/css/reset.css"> -->
     <link rel="stylesheet" href="resources/css/styles.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
     <header>
-        <div class="logo">
+        <div class="logo desktop" >
             <img src="resources/images/ic-logo.svg" alt="Colmar Academy logo">
             <div class="logo_txt_1">COLMAR</div>
             <div class="logo_txt_2">ACADEMY</div>
         </div>
-        <div class="nav">
+        <div class="logo mobile" >
+            <img src="resources/images/ic-logo.svg" alt="Colmar Academy logo">
+            <img src="resources/images/ic-on-campus.svg">
+            <img src="resources/images/ic-online.svg">
+            <img src="resources/images/ic-login.svg">
+        </div>
+        <div class="nav desktop">
             <a href="#" target="_blank">On campus</a>
             <a href="#" target="_blank">Online</a>
             <a href="#" target="_blank">For Companies</a>
             <a href="#" target="_blank">Sign in</a>
         </div>
     </header>
-    <div class="dummy_header"></div>
     <div class="learn">
         <img src="resources/images/banner.jpg" alt="Three students reading in a book">
         <div class="learn_caption">
@@ -46,7 +52,10 @@
         </div>
         <div class="information_content">
             <div class="orientation">
-                <img src="resources/images/information-orientation.jpg">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="resources/images/information-orientation.jpg">
+                    <img src="resources/images/information-orientation-mobile.jpg">
+                </picture>
                 <div class="info">
                     <h3>Orientation date</h3>
                     <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -54,7 +63,10 @@
                 </div>
             </div>
             <div class="campus">
-                <img src="resources/images/information-campus.jpg" alt="class room with map on the wall">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="resources/images/information-campus.jpg" >
+                    <img src="resources/images/information-campus-mobile.jpg" alt="class room with map on the wall">
+                </picture>
                 <div class="info">
                     <h3>Our campus</h3>
                     <p>Find which campus is close by you</p>
@@ -62,7 +74,10 @@
                 </div>
             </div>
             <div class="guest">
-                <img src="resources/images/information-guest-lecture.jpg" alt="Portrait of Oliver Sack">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="resources/images/information-guest-lecture.jpg">
+                    <img src="resources/images/information-guest-lecture-mobile.jpg" alt="Portrait of Oliver Sack">
+                </picture>
                 <div class="info">
                     <h3>Our guest lecture</h3>
                     <p>Join a keynote with Oliver Sack</p>
