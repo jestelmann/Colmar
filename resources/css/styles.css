@@ -303,6 +303,11 @@ footer a {
         width:100%;
     }
 
+    .information_content img {
+        width: 100%;
+        height: auto;
+    }
+
     .information_content .orientation,.campus,.guest {
         display: flex;
         flex-direction: column;
@@ -371,7 +376,8 @@ footer a {
     .start_learning .info {
         background-color: lightgrey;
         text-align: left;
-        width: 100%;
+        margin-right: 32px;
+        width: auto;
         height: fit-content;
     }
 
