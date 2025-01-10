@@ -166,6 +166,77 @@ header .logo.desktop img {
     margin: 8px,0;
 }
 
+.thesis .section {
+    display: flex;
+    padding-bottom: 31px;
+}
+
+.thesis .section .left {
+    width: 60%;
+    margin: 0 23px;
+}
+
+.thesis .section .right {
+    width: 40%;
+}
+
+.thesis video {
+    width: 100%;
+    height: auto;
+}
+
+.thesis h1 {
+    text-align: center;
+    margin: 32px;
+}
+
+.thesis .left h3 {
+    margin-top: 23px;
+    margin-bottom: 7px;
+}
+
+.thesis .learn_caption {
+    display: inline-flex;
+    width: 100%
+}
+
+.thesis .learn_caption.fisma {
+    background-color: lightgrey;
+}
+
+.thesis .learn_caption img {
+    margin: 16px;
+    width: 35%;
+    height: auto;
+}
+
+.thesis .info {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: smaller;
+    color: grey;
+    padding: 16px 24px;
+    border-top: 1px dotted gray;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+
+
 @media only screen and (min-width: 1000px) {
     header .logo.desktop {
         display: inline-flex;
@@ -239,6 +310,11 @@ header .logo.desktop img {
         margin-bottom: 63px;
     }
 
+    .information_content .guest {
+        background-color: white;
+    }
+    
+
     .information_content .mobile {
         width: 100%;
     }
@@ -247,6 +323,19 @@ header .logo.desktop img {
         margin-left: 0;
         margin-top: 32px;
         margin-bottom: 24px;
+    }
+
+    .start_learning {
+        border-top: 1px dotted lightgrey;
+        border-bottom: 1px dotted lightgrey;
+        padding: 0 16px 32px 16px;
+        background-color: white;
+    }
+
+    .start_learning h1 {
+        margin-top: 32px;
+        margin-bottom: 8px;
+        padding-top: 0;
     }
 
     .start_learning img {
@@ -268,89 +357,58 @@ header .logo.desktop img {
         justify-content: center;
     }
 
-    .start_learning .course {
+    .start_learning .courses {
         width: 100%;
-        margin: 16px;
+        margin-top: 0;
+        padding: 0px;
     }    
 
-    .start_learning .info {
-        background-color: white;
-        text-align: left;
+    .start_learning .course {
         width: 100%;
+        margin: 8px 0;
     }
 
+    .start_learning .info {
+        background-color: lightgrey;
+        text-align: left;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .thesis .section {
+        padding-bottom: 24px;
+    }
+    
+    .thesis .section .left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .thesis h1 {
+        margin-top: 31px;
+        margin-bottom: 15px;
+    }
+
+    .thesis .section .right {
+        display: none;
+    }
+
+    .thesis .left h3,p {
+        display: none;
+    }
+
+    footer p {
+        display: inline;
+        margin: 0;
+    }
+
+    footer .links {
+        display: none;
+    }
+        
 }
 
 
 
 
-.thesis .section {
-    display: flex;
-    padding-bottom: 31px;
-}
-
-.thesis .section .left {
-    width: 60%;
-    margin: 0 23px;
-}
-
-.thesis .section .right {
-    width: 40%;
-}
-
-.thesis video {
-    width: 100%;
-    height: auto;
-}
-
-.thesis h1 {
-    text-align: center;
-    margin: 32px;
-}
-
-.thesis .left h3 {
-    margin-top: 23px;
-    margin-bottom: 7px;
-}
-
-.thesis .learn_caption {
-    display: inline-flex;
-    width: 100%
-}
-
-.thesis .learn_caption.fisma {
-    background-color: lightgrey;
-}
-
-.thesis .learn_caption img {
-    margin: 16px;
-    width: 35%;
-    height: auto;
-}
-
-.thesis .info {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 65%;
-}
-
-footer {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    font-size: smaller;
-    color: grey;
-    padding: 16px 24px;
-    border-top: 1px dotted gray;
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    text-decoration: none;
-    color: grey;
-}
 
